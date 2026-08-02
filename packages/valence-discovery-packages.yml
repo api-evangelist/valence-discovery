@@ -1,0 +1,55 @@
+generated: '2026-07-21'
+method: searched
+source: PyPI JSON API (pypi.org/pypi/<name>/json) + GitHub orgs valence-labs / datamol-io
+notes: >-
+  Valence Discovery (now Valence Labs, part of Recursion) ships no public REST API. Its
+  developer surface is a suite of first-party open-source Python libraries for
+  cheminformatics, molecular ML and quantum datasets, published under the datamol-io and
+  valence-labs GitHub organizations (Datamol merged with InVivo AI to form Valence
+  Discovery). These are the client libraries listed below.
+packages:
+  - language: python
+    registry: pypi
+    name: datamol
+    url: https://pypi.org/project/datamol/
+    install: pip install datamol
+    summary: A python library to work with molecules. Built on top of RDKit.
+    source: https://github.com/datamol-io/datamol
+    docs: https://docs.datamol.io
+    official: true
+  - language: python
+    registry: pypi
+    name: molfeat
+    url: https://pypi.org/project/molfeat/
+    install: pip install molfeat
+    summary: molfeat - the hub for all your molecular featurizers.
+    source: https://github.com/datamol-io/molfeat
+    docs: https://molfeat-docs.datamol.io/
+    official: true
+  - language: python
+    registry: pypi
+    name: graphium
+    url: https://pypi.org/project/graphium/
+    install: pip install graphium
+    summary: 'Graphium: Scaling molecular GNNs to infinity.'
+    source: https://github.com/datamol-io/graphium
+    docs: https://graphium-docs.datamol.io/
+    official: true
+  - language: python
+    registry: pypi
+    name: safe-mol
+    url: https://pypi.org/project/safe-mol/
+    install: pip install safe-mol
+    summary: Implementation of the 'Gotta be SAFE - a new framework for molecular design' paper.
+    source: https://github.com/datamol-io/safe
+    docs: https://safe-docs.datamol.io/
+    official: true
+  - language: python
+    registry: pypi
+    name: openqdc
+    url: https://pypi.org/project/openqdc/
+    install: pip install openqdc
+    summary: ML ready Quantum Mechanical datasets.
+    source: https://github.com/valence-labs/openQDC
+    docs: https://docs.openqdc.io
+    official: true
