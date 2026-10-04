@@ -45,12 +45,12 @@ modified: '2026-07-21'
 tags:
 - Company
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Cheminformatics
 - Molecular Design
 - Artificial Intelligence
 - Life Sciences
-- Open-Source
+- Open Source
 - Python
 tags_raw:
 - Company
@@ -62,6 +62,8 @@ tags_raw:
 - Life Sciences
 - Open Source
 - Python
+- Machine-Learning
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
